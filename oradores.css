@@ -6,3 +6,17 @@
     font-size: 14px;
     
 }
+.container-oradores {
+    margin-top: 20px;
+    padding: 1rem 10rem;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    background-color: rgb(221, 218, 218);
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 14px;
+}
