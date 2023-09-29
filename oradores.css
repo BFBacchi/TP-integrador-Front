@@ -10,6 +10,9 @@
     margin-top: 20px;
     padding: 1rem 10rem;
 }
+#card-oradores{
+    border 10px 10px black;
+}
 
 .card:hover{
     transform: scale(1.01);
@@ -19,4 +22,31 @@
 
 .card-text {
     font-size: 14px;
+}
+
+@media screen and (max-width: 910px) {
+    .card-text1 {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    }
+    
+    .card-title1 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .card-text {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+    #card-oradores{
+        margin-top: 1rem !important;
+    }
+    
 }
