@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .row-group{
     align-items: center;
     padding: 0 10%;
@@ -38,3 +39,28 @@
     border: solid 1px rgb(225, 192, 28) !important;
 }
 
+=======
+#total{
+    padding: .75em;
+    background-color:rgb(187, 126, 69);
+}
+
+.tickets{
+    margin-top: 8rem;
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: center !important;
+}
+
+.card-ticket{
+    text-align: center !important;
+    padding: 1rem;
+}
+
+.card-ticket-estudiante{
+    border: solid 1px rgb(60, 132, 226) !important ;
+}
+>>>>>>> f62506c (se termina pagina de tickets)
